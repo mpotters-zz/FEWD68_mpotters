@@ -1,0 +1,29 @@
+	body {
+		background-color: #8e44ad;
+	}
+
+	h1 {
+		padding-left: 40px;
+		padding-top: 20px;
+	}
+
+	section {
+		background-color: #e67e22;
+		margin-left: 40px;
+		padding-right: 4px;
+		padding-top: 4px;
+		padding-left: 4px;
+		padding-bottom: 4px;
+	}
+	p {
+		margin: 0px;
+	}
+	.superman {
+		font-style: italic;
+	}
+	.batman {
+		font-size: 8px;
+	}
+	.wonderwoman {
+		background-color: red;
+	}
