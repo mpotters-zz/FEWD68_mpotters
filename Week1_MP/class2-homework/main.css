@@ -111,3 +111,9 @@ li:before {
   content: "■";
   padding-right: 7px;
 }
+.navImg {
+  float: left;
+  display: inline-block;
+  max-height: 100px;
+  max-width: 100px;
+}
