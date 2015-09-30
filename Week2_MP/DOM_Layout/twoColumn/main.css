@@ -1,0 +1,46 @@
+.wrapper {
+	margin: 0 auto;
+	width: 980px;
+}
+
+.global-background {
+	background: #2ecc71;
+	border: 1px solid black;
+}
+
+.typeface {
+	font-family: 'Droid-Sans', sans-serif;
+}
+
+header, footer {
+	height: 75px;
+	width: 100%;
+}
+
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 980px;
+}
+
+li {
+	display: inline-block;
+	padding-right: 10px;
+}
+
+section {
+
+}
+
+.main-content {
+	display: inline-block;
+	height: 500px;
+	width: 74%;
+}
+
+.side-content {
+	display: inline-block;
+	height: 500px;
+	width: 23.5%;
+}
