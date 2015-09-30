@@ -136,7 +136,7 @@ section {
 
 aside {
   float: right;
-  margin-top: 0px;
+  margin-top: 15px;
   margin-left: 20px;
   position: relative;
   width: 240px;
@@ -146,8 +146,8 @@ aside {
 /*******************************************/
 .relaxrTitle {
   color: #f0efef;
-  padding-right: 400px;
-  font-size: 
+  padding-right: 350px;
+  font-size: 32px;
 }
 
 .navLink {
@@ -190,25 +190,35 @@ section p.readMore {
   padding: 0px;
 }
 
-article.signUp {
+section.signUp {
   background-color: #f9e42e;
-  border-bottom: solid 2px #121212;
   margin-right: 0px;
   padding-top: 0px;
   text-align: center;
   height: 100px;
+  width: 960px;
+}
+div.footerImg {
   width: 980px;
+  padding-left: 445px; 
+  margin: 0 auto;
+}
+div.copyright {
+  width: 980px;
+  padding-left: 438px;
+  margin: 0 auto;
 }
 .btn {
   -webkit-border-radius: 10;
   -moz-border-radius: 10;
   border-radius: 10px;
-  font-family: Arial;
+  font-family: Open Sans;
   color: #f0efef;
-  font-size: 22pxpx;
+  font-size: 22px;
   background: #033048;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  margin: 10px 350px 350px 350px;
 }
 .footerText {
   color: #f9e42e;
@@ -218,4 +228,8 @@ article.signUp {
 span {
   margin: auto;
   width: 980px;
+}
+
+p.copyright {
+  color: #f0efef; 
 }
