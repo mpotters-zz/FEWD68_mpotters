@@ -19,6 +19,7 @@ Weight: Light, Light Italic, Semibold, Extrabold
 "Relaxr" - Extra bold, 24px
 "Get piece of mind with a single tap" - Semibold, 24px
 "Get it Now" - Extra bold, 14px. 5px border radius
+
 "Benefits" - Semibold, 20px
 "The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be." - Light, 13px
 "• Schedule meetings for you

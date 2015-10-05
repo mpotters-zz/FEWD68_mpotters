@@ -132,14 +132,30 @@ li.catListItem {
 section {
   display: inline-block;
   margin-right: 0px;
+  padding-right: 0px;
 }
 
-aside {
-  float: right;
-  margin-top: 15px;
-  margin-left: 20px;
-  position: relative;
+section.sectionStyle {
+  width: 700px;
+  display: inline-block;
+}
+
+div.articleDiv {
+  width: 700px;
+  display: inline-block;
+  float: left;
+}
+
+section.sidebar {
+  display: inline-block;
   width: 240px;
+}
+div.sidebarDiv {
+  float: left;
+  width: 240px;
+}
+div.clear {
+  clear: both;
 }
 /******************************************
 /* ADDITIONAL STYLES
@@ -173,6 +189,24 @@ aside {
   font-size: 24px;
 }
 
+section p.sectionPara {
+  font-family: Open Sans;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+section p.sectionPara:first-letter {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 50px;
+  color: #121212;
+  float: left; 
+  line-height: 60px; 
+  padding-top: 0px; 
+  padding-right: 8px; 
+  padding-left: 3px;
+}
+
 section p.readMore {
   color: #121212;
   text-decoration: none;
@@ -199,19 +233,56 @@ section.signUp {
   width: 960px;
 }
 div.footerImg {
-  width: 980px;
-  padding-left: 445px; 
+  width: 64px;
   margin: 0 auto;
 }
-div.copyright {
+div.copyrightDiv {
   width: 980px;
-  padding-left: 438px;
+  height: 100px;
   margin: 0 auto;
 }
 .btn {
   -webkit-border-radius: 10;
   -moz-border-radius: 10;
   border-radius: 10px;
+  border: none;
+  font-family: Open Sans;
+  color: #f0efef;
+  font-size: 22px;
+  background: #033048;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 10px 350px 350px 350px;
+
+   -webkit-transition: all .10s ease-in;
+  -moz-transition: all .10s ease-in;
+  -ms-transition: all .10s ease-in;
+  -o-transition: all .10s ease-in;
+  transition: all .10s ease-in;
+
+  outline:0px !important;
+ -webkit-appearance:none;
+}
+
+.btn:hover {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 20px;
+  border: none;
+  font-family: Open Sans;
+  color: #f0efef;
+  font-size: 22px;
+  background: #033048;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 10px 350px 350px 350px;
+}
+
+.btn:active {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 40px;
+  border: none;
   font-family: Open Sans;
   color: #f0efef;
   font-size: 22px;
@@ -231,5 +302,8 @@ span {
 }
 
 p.copyright {
-  color: #f0efef; 
+  color: #f0efef;
+  width: 100px;
+  padding: 15px 0px 0px 0px;
+  margin: 0 auto; 
 }

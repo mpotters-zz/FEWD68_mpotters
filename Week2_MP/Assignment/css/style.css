@@ -46,12 +46,12 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+    color: #000;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: Helvetica, Arial, sans-serif;
+    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+    background-size: cover;
 }
 
 
@@ -68,17 +68,173 @@ body {
 }
 
 header {
-
+  height: 700px;
 }
 
 footer {
-
+height: 300px;
+background-color: #121212;
+margin-top: 0px;
+padding-top: 0px;
+text-align: center;
 }
 
+h1 {
+  color: #f0efef;
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 24px;
+  padding-left: 80px;
+}
+
+h2 {
+  color: #f0efef;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}
+
+h3 {
+  color: #121212;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 20px;
+  padding-left: 80px;
+}
+
+section.benefits {
+  background-color: #f0efef;
+}
+
+p.benefitsPara {
+  color: #121212;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 13px;
+  padding-left: 80px;
+  padding-right: 800px;
+}
+
+ul {
+  padding-left: 140px;
+  padding-right: 800px;
+}
+
+li {
+  color: #121212;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 13px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+.landing {
+  margin: 0 auto;
+  padding-top: 150px;
+  width: 50%;
+  text-align: center;
+}
 
+.getIt {
+  padding: 10px 30px 10px 30px;
+  background-color: #f9e42e;
+  border: 1px solid #666;
+  border-radius: 5px;
+  color:#121212;
+  text-decoration:none;
+  font-weight: 800;
+  font-size: 14px;
+}
 
+.benefits {
+  padding:  10px 30px 10px 30px;
+}
 
+.intuit {
+  line-height: 1.4;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  margin: 0 auto;
+  padding: 10px 100px 10px 100px;
+  width: 100%;
+  text-align: center;
+}
+
+.testimonial {
+  color: #f0efef;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+  width: 50%;
+  padding-top: 50px;
+  padding-bottom: 5px;
+  margin: 0 auto;
+}
+
+p.amanda {
+  color: #f0efef;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 18px;
+  width: 50%;
+  padding-top: 0px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+
+.signUp {
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  text-align: center;
+  background-color: #f9e42e;
+}
+
+.signUpButton {
+  padding: 10px 50px 10px 50px;
+  background-color: #033048;
+  border: 1px solid #666;
+  border-radius: 5px;
+  color:#f0efef;
+  text-decoration:none;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.footerBackground {
+  background-color: #121212;
+}
+
+p.relaxrFooter {
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 24px;
+  color: #f9e42e;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 50px;
+}
+
+p.copyright {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 9px;
+  text-align: center;
+  color: #f0efef;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+  padding: 15px 0px 0px 0px;
+}
+
+footer ul {
+  padding: 0px;
+}
