@@ -61,6 +61,7 @@ body {
   max-width: 1024px;
   margin: 0 auto;
   position: relative;
+  text-align: center;
 
 }
 /******************************************
@@ -112,6 +113,17 @@ nav li {
   font-size: 18px;
 }
 
+nav .line{
+  width: 3em;
+  height: .3em;
+  background: yellow;
+  border-radius: 1em;
+  margin-top: .25em;
+}
+nav .line:first-of-type{
+  margin-top:.7em;
+}
+
 /******************************************
 /* BRAINS TASTE BETTER
 /*******************************************/
@@ -141,10 +153,11 @@ span {
 
 section.coworking {
   background-image: url(../images/coworking.jpg);
-  height: 800px;
-  padding: 15px 0 15px 0; 
+  /*height: 800px;*/
+  padding: 3%;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  overflow: hidden;
   /*width: 100%;*/
 }
 
@@ -290,3 +303,72 @@ button.CTA:active {
   font-family: 'open sans';
   font-weight: 300;
 }
+
+/******************************************
+/* MEDIA QUERIES
+/*******************************************/
+
+@media screen and (max-width: 1026px) and (min-width: 768px) {
+
+  .container {
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+  }
+
+  nav.line {
+    display: none;
+    visibility: hidden;
+  }
+
+    .module-stacking {
+    display: inline-block;
+    max-width: 270px;
+    float: left;
+    padding-right: 5px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 5px;
+    text-align: center;
+    position: relative;
+  }
+
+  .module-stacking:nth-child(1) {
+    padding-right: 5px;
+  }
+
+  .module-stacking:nth-child(1), .module-stacking:nth-child(2) {
+    border-right: 1px solid gray;
+  }
+
+  .infoHeader {
+    font-family: 'open sans';
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .infoText {
+    font-family: 'open sans';
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+
+  .container {
+  max-width: 768px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  }
+
+
+
+
+
+}
+
